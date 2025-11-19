@@ -39,7 +39,16 @@ print("сумма всех чисел:",sum)
 num_1 = 130
 num_2 = 4
 num_3 = 2
-muitiplayin
-
-path*=2
-print("ERROR PATH:,PATH")
+muitiplying = num_1 * num_2 * num_3
+print("Умножение всех чисел:", muitiplying)
+division = num_1 / num_2 / num_3
+print("Деление:", division)
+num_1 = 2
+num_2 =3
+num_3 = 4
+degree = num_1 ** (num_2 ** num_3)
+print("Числа в степени:",degree )
+num_1 = 2
+num_2 = 3
+num_3 = 4
+print("Финальные значения: num_1 =", num_1, "num_2" num_2, "num_3" num_3)
