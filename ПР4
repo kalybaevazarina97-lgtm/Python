@@ -1,0 +1,72 @@
+#1
+num = int(input("Введите целое число: ") )
+if num < 0:
+    num = -num
+elif num == 0:
+    num = 1
+print (num)
+#2
+text = input ("Введите строку: ")
+print('.' in text or ',' in text)
+#3
+ 
+a = int(input ("Введите первоемчисло: ") )
+b = int(input("Введите второе число: "))
+if a % 3 == 0 and b % 3 == 0:
+    print (True)
+elif a % 3 == 0 or b % 3 == 0:
+    print ("Одно число делится на 3" )
+else:
+    print (False)
+#1
+num = int (input ("Введите число: "))
+if num > 100: print ('*')
+elif num >= 0:
+    print('*' * num)
+#2
+str1 = input("Введите первую строку: ")
+str2 = input ("Введите вторую строку: ")
+print (str1 == str2)
+#3
+r = int(input("Введите значение г: ") )
+g = int(input("Введите значение д: ") )
+b = int(input ("Введите значение b: ") )
+if r == 0 and g== 0 and b== 0:
+    print ( "Чёрный цвет")
+elif r == 255 and g == 255 and b == 255:
+    print ( "Белый цвет")
+elif r == 255 and g == 0 and b == 0:
+    print ( "Красный цвет")
+elif g == 255 and r == 0 and b == 0: print ( "Зелёный цвет")
+elif b == 255 and r == 0 and g == 0: 
+    print (" Синий цвет")
+else:
+    print( "Нет цвета")
+#1
+number = float(input("Введите число: "))
+if number > 0:
+    print(f"{number-1},{number},{number + 1}")
+    else:
+number = 1
+print(f"{number-1},{number},{number + 1}")
+#2
+file_name = input("Введите имя файла с асширением: ")
+extension = file_name.split('.')[1] 
+if extension == "doc":
+    print("Это документ Word.")
+elif extension == "py":
+    print("Это файл Python.")
+elif extension == "txt":
+    print("Это текстовый файл.")
+else:
+    print("Неизвестное расширение файла.")
+#3
+a = float(input("Введите длину первойстороны: "))
+b = float(input("Введите длину второй стороны:"))
+c = float(input("Введите длину третьейстороны: "))
+if a == b == C:
+    print("Это равносторонний треугольник.")
+elif a == b or b == c or a == c:
+    print("Это равнобедренный треугольник.")
+else:
+    print("Это разносторонний треугольник.")
