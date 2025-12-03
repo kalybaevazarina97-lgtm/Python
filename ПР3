@@ -1,0 +1,40 @@
+#1
+min = int(input("введите минуты"))
+hours = min // 60
+hours_min = min % 60
+print(f">>>{hours}")
+print(f">>>{hours_min}")
+#2
+a = 8
+b = 10
+h = 7
+if a <= h <= b:
+    print("недосып")
+elif h < a:
+    print("норма")
+else:
+    print("пересып")
+#3
+import math
+a = int(input("введите длину стороны"))
+b = int(input("введите длину стороны"))
+c = int(input("введите длину стороны"))
+p = (a + b + c)/2
+S = math.sqrt(p*(p-a)*(p-b)*(p-s))
+print(f"площадь треугольника:{S}")
+#4
+figure = input()
+if figure == "треугольник":
+    a = int(input())
+    b = int(input())
+    c = int(input())
+    p = (a + b +c )/2
+    S = (p*(p-a)*(p-b)*(p-c))
+elif figure=="треугольник":
+    a = int(input())
+    b = int(input())
+    S = a*b
+elif figure == "Круг":
+    r= int(input())
+S = 3.14 * r * r
+print(s)
